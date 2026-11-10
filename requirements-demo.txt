@@ -1,0 +1,2 @@
+# For included local GUI checkpoint; Python 3.11 recommended.
+torch==2.13.0
