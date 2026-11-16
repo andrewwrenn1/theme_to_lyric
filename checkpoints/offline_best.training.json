@@ -1,0 +1,51 @@
+{
+  "model": "conditional GRU word-level language model",
+  "train_lines": 4000,
+  "train_pairs": 7718,
+  "val_lines": 1000,
+  "val_pairs": 1893,
+  "vocab_size": 2400,
+  "total_parameters": 433056,
+  "embed_dim": 64,
+  "hidden_dim": 96,
+  "learning_rate": 0.002,
+  "batch_size": 64,
+  "seed": 13,
+  "epochs_requested": 5,
+  "best_epoch": 5,
+  "best_val_loss": 4.571432152785942,
+  "elapsed_seconds": 22.77,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 5.67801,
+      "val_loss": 5.02441,
+      "val_perplexity": 152.081
+    },
+    {
+      "epoch": 2,
+      "train_loss": 4.99741,
+      "val_loss": 4.78401,
+      "val_perplexity": 119.584
+    },
+    {
+      "epoch": 3,
+      "train_loss": 4.67129,
+      "val_loss": 4.6561,
+      "val_perplexity": 105.225
+    },
+    {
+      "epoch": 4,
+      "train_loss": 4.4109,
+      "val_loss": 4.59518,
+      "val_perplexity": 99.006
+    },
+    {
+      "epoch": 5,
+      "train_loss": 4.17485,
+      "val_loss": 4.57143,
+      "val_perplexity": 96.682
+    }
+  ],
+  "device": "cpu"
+}

@@ -3,8 +3,10 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .DS_Store
-# Do not publish third-party copyrighted lyrics
+# Do not publish third-party copyrighted song lyrics.
 data/*.jsonl
+# Local T5 fine-tuning outputs / full experiments
 runs/
 evaluation/
+# caches
 .cache/

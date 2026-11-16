@@ -1,0 +1,24 @@
+{
+  "judge": "TF-IDF (1-2 grams) + one-vs-rest logistic regression",
+  "judge_training_lines": 10000,
+  "judge_heldout_test_hit_at_1": 0.67,
+  "num_themes": 10,
+  "samples_per_theme": 20,
+  "models": {
+    "offline_best": {
+      "theme_hit_at_1": 0.225,
+      "theme_mrr": 0.4246,
+      "distinct_1": 0.1784,
+      "sample_count": 200,
+      "unique_lines": 200
+    },
+    "unconditional_best": {
+      "theme_hit_at_1": 0.075,
+      "theme_mrr": 0.2853,
+      "distinct_1": 0.1726,
+      "sample_count": 200,
+      "unique_lines": 200
+    }
+  },
+  "limitation": "Judge learns from the same noisy LLM-generated labels. Theme top-1 is a weak proxy, not independent human evaluation."
+}

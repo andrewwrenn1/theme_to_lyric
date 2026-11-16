@@ -227,5 +227,14 @@ ThemeToLyric_Submission/
 └── tests/test_project.py           # Seven passing automated tests
 ```
 
+## 8. Submit and cite
+
+Turn in these three deliverables to the instructor:
+
+1. **PDF:** `Documents/final_report.pdf`.
+2. **GitHub URL:** create a GitHub repository for this folder, push the included non-lyric files, and submit its URL. **No live GitHub link has been created yet** by this package.
+3. **Working GUI:** a peer clones the repository, installs `requirements-demo.txt`, launches `python demo.py`, opens localhost, selects a theme and generates output. The included checkpoint makes this possible **without** retraining or downloading the original lyric corpus.
+
+**Research honesty:** This is a genuinely trained small model baseline, not a claim that the full transformer has already achieved the reported results. The best next steps are to collect human judgments, improve originality screening, rerun weak-label calibration using training data alone, and compare a real fine-tuned T5 checkpoint against this baseline.
 
 **External resources used:** [Source dataset](https://huggingface.co/datasets/Dr3dre/Genius-song-lyrics-cleaned) · [FLAN-T5-small model](https://huggingface.co/google/flan-t5-small) · [Qwen labeler](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct) · [MiniLM embedder](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2).

@@ -1,0 +1,11 @@
+# Conda environment for the theme-to-lyric project.
+#   conda env create -f environment.yml
+#   conda activate theme-to-lyric
+name: theme-to-lyric
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - -r requirements.txt

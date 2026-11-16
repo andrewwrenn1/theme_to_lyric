@@ -1,0 +1,29 @@
+{
+  "model_kind": "theme-conditioned GRU",
+  "checkpoint": "checkpoints/offline_best.pt",
+  "checkpoint_best_epoch": 5,
+  "metrics": {
+    "train": {
+      "lines": 10000,
+      "pairs": 19318,
+      "tokens": 175813,
+      "cross_entropy": 4.28736,
+      "perplexity": 72.7741
+    },
+    "val": {
+      "lines": 1000,
+      "pairs": 1893,
+      "tokens": 17544,
+      "cross_entropy": 4.57143,
+      "perplexity": 96.6825
+    },
+    "test": {
+      "lines": 1000,
+      "pairs": 1935,
+      "tokens": 17351,
+      "cross_entropy": 4.44952,
+      "perplexity": 85.5856
+    }
+  },
+  "note": "Teacher-forced token-level perplexity on learned vocabulary; not directly comparable to T5 tokenizer perplexity."
+}

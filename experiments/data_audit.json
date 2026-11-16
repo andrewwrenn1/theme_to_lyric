@@ -1,0 +1,61 @@
+{
+  "train": {
+    "lines": 10000,
+    "songs": 4585,
+    "theme_assignments": 19318,
+    "label_count": {
+      "sadness": 1822,
+      "redemption": 1791,
+      "freedom": 2001,
+      "betrayal": 2069,
+      "loss": 1772,
+      "death": 1960,
+      "love": 2290,
+      "loneliness": 2057,
+      "sacrifice": 1696,
+      "pain": 1860
+    },
+    "mean_words": 7.622
+  },
+  "val": {
+    "lines": 1000,
+    "songs": 527,
+    "theme_assignments": 1893,
+    "label_count": {
+      "pain": 170,
+      "death": 179,
+      "betrayal": 241,
+      "love": 245,
+      "sadness": 187,
+      "loss": 171,
+      "sacrifice": 167,
+      "loneliness": 204,
+      "freedom": 171,
+      "redemption": 158
+    },
+    "mean_words": 7.744
+  },
+  "test": {
+    "lines": 1000,
+    "songs": 515,
+    "theme_assignments": 1935,
+    "label_count": {
+      "sadness": 208,
+      "loneliness": 214,
+      "redemption": 167,
+      "freedom": 171,
+      "love": 233,
+      "death": 224,
+      "betrayal": 207,
+      "pain": 203,
+      "sacrifice": 130,
+      "loss": 178
+    },
+    "mean_words": 7.521
+  },
+  "song_overlap": {
+    "train_val": 0,
+    "train_test": 0,
+    "val_test": 0
+  }
+}
